@@ -41,3 +41,10 @@ $ ng --version
 ```sh
 $ npm install -g ionic
 ```
+
+## JsHint
+#### Install:
+
+```sh
+$ npm install -g jshint
+```
