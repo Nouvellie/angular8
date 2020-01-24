@@ -15,3 +15,10 @@
 ```sh
 $ npm install -g typescript
 ```
+
+## Angular CLI
+#### Install: (8.3.23)
+
+```sh
+$ npm install -g @angular/cli
+```
