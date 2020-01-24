@@ -6,9 +6,9 @@
 
 
 <br><br>
-<p align="center">
+<center>
   <img width="75%" height="75%" src="https://github.com/Nouvellie/angular8/blob/master/img/angular.svg" alt="Angular Logo">
-</p>
+</center>
 
 <br><br>
 ***Created by Nouvellie, 01/24/2020***
