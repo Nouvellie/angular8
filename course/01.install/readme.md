@@ -22,3 +22,22 @@ $ npm install -g typescript
 ```sh
 $ npm install -g @angular/cli
 ```
+
+#### If errors:
+
+```sh
+$ sudo npm install --unsafe -perm -g @angular/cli
+```
+
+#### Check:
+
+```sh
+$ ng --version
+```
+
+## Ionic
+#### Install: (5.4.15)
+
+```sh
+$ npm install -g ionic
+```
