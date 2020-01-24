@@ -1,7 +1,9 @@
 function greet(name) {
     console.log("Hellow " + name);
 }
+
 var avenger = {
-    name: "Ironman"
+    name: "Ironman",
 };
-greet(avenger.name);
+
+greet(avenger.name)
