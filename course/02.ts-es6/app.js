@@ -1,7 +1,9 @@
+"use strict";
+
 function greet(name) {
-    console.log("Hellow " + name);
+    console.log("Hellow " + name.toUpperCase());
 }
 var avenger = {
-    name: "Ironman"
+    name: "Ironman",
 };
 greet(avenger.name);
