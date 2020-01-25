@@ -30,3 +30,9 @@ $ karma-jasmine-html-reporter@1.5.1
 $ npm install jasmine-core
 ```
 
+## Run Angular (default, or specific port)
+
+```sh
+$ ng serve
+$ ng serve -p <port>
+```
