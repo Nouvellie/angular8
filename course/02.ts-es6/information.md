@@ -20,7 +20,7 @@
 - The IDE didn't tell me that I couldn't do it.
 
 ## Index
-#### 1: Testing tsc.
+#### 1: [Testing tsc.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app.ts)
 
 #### 2: Introduction to var, let, const.
 
