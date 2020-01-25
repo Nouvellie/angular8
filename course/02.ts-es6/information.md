@@ -20,25 +20,15 @@
 - The IDE didn't tell me that I couldn't do it.
 
 ## Index
-#### 1:
+#### 1: Testing tsc.
 
-Testing tsc.
+#### 2: Introduction to var, let, const.
 
-#### 2:
+#### 3: Variable types.
 
-Introduction to var, let, const.
+#### 4: Template strings.
 
-#### 3:
-
-Variable types.
-
-#### 4:
-
-Template strings.
-
-#### 5:
-
-Functions. (normal, default, optional)
+#### 5: Functions. (normal, default, optional)
 
 #### 6: 
 
