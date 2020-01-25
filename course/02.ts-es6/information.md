@@ -43,3 +43,7 @@ Functions variables. (normal, default, optional)
 #### 6: 
 
 Fat arrow, or arrow function.
+
+#### 7:
+
+Destructuring.

@@ -33,12 +33,12 @@ let shortUpperFunction = (firstName:string) => {firstName = firstName.toUpperCas
 console.log(longUpperFunction("Roberto"));
 console.log(shortUpperFunction("Nouvellie"));
 
-let nick = "Anivia";
+let nick1 = "Anivia";
 let champ = {
-    nick: "Ahri",
+    nick1: "Ahri",
     charm() {
         setTimeout( function() {
-            console.log(this.nick + " use charm!!");
+            console.log(this.nick1 + " use charm!!");
         }, 2000)
         
     }
@@ -46,9 +46,9 @@ let champ = {
 champ.charm();
 
 let champ2 = {
-    nick: "Ahri",
+    nick2: "Ahri",
     charm() {
-        setTimeout( () => console.log(this.nick + " use charm!!"), 2000);
+        setTimeout( () => console.log(this.nick2 + " use charm!!"), 2000);
     }
 }
 champ2.charm();
