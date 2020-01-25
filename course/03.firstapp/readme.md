@@ -10,3 +10,23 @@
 - Creating HTML files to take care of the visual structure of our components.
 - We will create an application with 3 reusable components.
 - *ngFor and the *ngIf.
+
+## Requirements:
+#### Core-js: (3.6.4)
+
+```sh
+$ npm install --save core-js@^3
+```
+
+#### Karma-jasmine-html-reporter: (1.5.1)
+
+```sh
+$ karma-jasmine-html-reporter@1.5.1
+```
+
+#### Jasmine-core: (3.5)
+
+```sh
+$ npm install jasmine-core
+```
+
