@@ -1,4 +1,5 @@
 # INFORMATION
+
 ## Javascript weak points
 
 - Variable types.
