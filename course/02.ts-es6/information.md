@@ -1,6 +1,5 @@
-# INFORMATION
-
-## Javascript weak points
+# INFORMATION
+## Javascript weak points
 
 - Variable types.
 - Typing errors.
