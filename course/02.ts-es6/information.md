@@ -39,3 +39,5 @@
 #### 9: Typescripts interfaces.
 
 #### 10: Classes.
+
+#### 11: Decorators.
