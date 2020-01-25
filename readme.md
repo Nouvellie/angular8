@@ -3,6 +3,7 @@
 
 ## Install
 - [Node.](https://github.com/Nouvellie/angular8/tree/master/course/01.install)
+- [Typescript and ES6.](https://github.com/Nouvellie/angular8/tree/master/course/02.ts-es6)
 
 
 <br><br>
