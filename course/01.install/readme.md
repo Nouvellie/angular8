@@ -43,7 +43,7 @@ $ npm install -g ionic
 ```
 
 ## JsHint
-#### Install:
+#### Install:
 
 ```sh
 $ npm install -g jshint
