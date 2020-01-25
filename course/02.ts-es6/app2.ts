@@ -1,24 +1,27 @@
-var message = "hellow";
+// Var:
 
+var message = "Hellow";
 if (true) {
-    var message = "good bye";
+    var message = "Good bye";
 }
 
-console.log(message);
+console.log(message); // This must show Good bye.
 
-let message2 = "cars";
+// Let:
 
+let message2 = "Cars";
 if (true) {
-    let message2 = "books";
+    let message2 = "Books";
 }
 
-console.log(message2);
+console.log(message2); // This must show Cars.
 
-const OPTION = "all";
+// Const:
 
+const OPTION = "All";
 if (true) {
-    const OPTION = "none";
-    console.log(OPTION);
+    const OPTION = "None";
+    console.log(OPTION); // This must show None.
 }
 
-console.log(OPTION);
+console.log(OPTION); // This must show All.

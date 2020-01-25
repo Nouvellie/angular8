@@ -15,3 +15,4 @@ let Some = class Some {
 Some = __decorate([
     console1
 ], Some);
+// Remember not to use reserved names for the variables.

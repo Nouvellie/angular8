@@ -1,3 +1,4 @@
+// Important order: Required, default-value, optional.
 function activate(
             who:string, 
             something:string = "Roberto",
@@ -15,4 +16,4 @@ function activate(
 
 activate("Nouvellie");
 activate("Nouvellie", "Rocuant");
-activate("Nouvellie", "Rocuant", "Tito")
+activate("Nouvellie", "Rocuant", "Tito");

@@ -1,7 +1,7 @@
 let avenger2 = {
     nick2: "Steve",
     keyNick2: "Captain America",
-    specialPower2: "Shield"
+    specialPower2: "Peak human strength"
 }
 let nick2 = avenger2.nick2;
 let keyNick2 = avenger2.keyNick2;
@@ -12,7 +12,7 @@ console.log(nick2, keyNick2, specialPower2);
 let avenger3 = {
     nick3: "Steve",
     keyNick3: "Captain America",
-    specialPower3: "Shield"
+    specialPower3: "Peak human strength"
 }
 
 let {nick3, keyNick3, specialPower3} = avenger3;
@@ -25,6 +25,6 @@ let [red, black, blue] = avenger4;
 
 console.log(red, black, blue);
 
-let [ , , third] = avenger4;
+let [ , , third] = avenger4; // We must assign the two first variables as well. (as blank spaces)
 
 console.log(third);

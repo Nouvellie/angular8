@@ -8,3 +8,5 @@ class Some {
 
     }
 }
+
+// Remember not to use reserved names for the variables.

@@ -15,6 +15,7 @@ function getName() {
 }
 
 let all4:string = ` ${getName()} `;
+
 console.log(all1);
 console.log(all2);
 console.log(all3);

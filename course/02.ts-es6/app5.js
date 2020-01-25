@@ -1,3 +1,4 @@
+// Important order: Required, default-value, optional.
 function activate(who, something = "Roberto", optional) {
     let message;
     if (optional) {

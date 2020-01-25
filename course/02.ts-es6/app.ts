@@ -6,4 +6,4 @@ var avenger = {
     name: "Ironman",
 };
 
-greet(avenger.name)
+greet(avenger.name);

@@ -9,6 +9,7 @@ class Avengers {
         this.name = name;
         this.team = team;
         this.realName = realName;
+        // Here canFight and points are default values.
     }
 }
 
