@@ -30,18 +30,10 @@
 
 #### 5: Functions. (normal, default, optional)
 
-#### 6: 
+#### 6: Fat arrow, or arrow function.
 
-Fat arrow, or arrow function.
+#### 7: Destructuring.
 
-#### 7:
+#### 8: Promises.
 
-Destructuring.
-
-#### 8:
-
-Promises.
-
-#### 9: 
-
-Typescripts interfaces.
+#### 9: Typescripts interfaces.
