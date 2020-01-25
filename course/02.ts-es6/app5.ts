@@ -1,7 +1,18 @@
-function activate(who:string, something:string = "Roberto") {
+function activate(
+            who:string, 
+            something:string = "Roberto",
+            optional?:string
+        ) {
     let message:string;
-    message = `Nickname: ${who}, by ${something}`;
+    if (optional) {
+        message = `Nickname: ${who}, by ${something}, as ${optional}.`;
+    }
+    else {
+        message = `Nickname: ${who}, by ${something}.`;
+    }
     console.log(message);
 }
 
 activate("Nouvellie");
+activate("Nouvellie", "Rocuant");
+activate("Nouvellie", "Rocuant", "Tito")
