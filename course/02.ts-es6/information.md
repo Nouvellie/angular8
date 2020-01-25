@@ -47,3 +47,7 @@ Fat arrow, or arrow function.
 #### 7:
 
 Destructuring.
+
+#### 8:
+
+Promises.
