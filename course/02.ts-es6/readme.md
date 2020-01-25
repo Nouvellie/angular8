@@ -26,7 +26,7 @@ In order for it to make changes to all ts files, we must start our folder as a t
 $ tsc -init
 ```
 
-And then:
+And then: (set watch: true)
 
 ```sh
 $ tsc

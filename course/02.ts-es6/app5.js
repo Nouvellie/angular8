@@ -2,7 +2,8 @@ function activate(who, something = "Roberto", optional) {
     let message;
     if (optional) {
         message = `Nickname: ${who}, by ${something}, as ${optional}.`;
-    } else {
+    }
+    else {
         message = `Nickname: ${who}, by ${something}.`;
     }
     console.log(message);
