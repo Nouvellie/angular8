@@ -18,3 +18,27 @@
 - We put a capital or small letter in the wrong place.
 - We simply don't know how other people's code works.
 - The IDE didn't tell me that I couldn't do it.
+
+## Index
+#### 1:
+
+Testing tsc.
+
+#### 2:
+
+Introduction to var, let, const.
+
+#### 3:
+
+Variable types.
+
+#### 4:
+
+Template strings.
+
+#### 5:
+
+Functions variables. (normal, default, optional)
+
+#### 6: 
+

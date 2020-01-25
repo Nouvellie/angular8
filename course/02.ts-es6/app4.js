@@ -6,6 +6,7 @@ let all2 = `Hellow, ${firstName} ${lastName} (${age})`;
 let all3 = `Hellow,
 ${firstName} ${lastName}
 (${age})`;
+
 function getName() {
     return "Roberto Rocuant";
 }
