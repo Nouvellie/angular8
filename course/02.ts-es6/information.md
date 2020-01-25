@@ -51,3 +51,7 @@ Destructuring.
 #### 8:
 
 Promises.
+
+#### 9: 
+
+Typescript's interfaces.

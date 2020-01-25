@@ -1,16 +1,16 @@
-let longFunction = function(x) {
+let longFunction = function (x) {
     return x;
 };
 let shortFunction = x => x;
 console.log(longFunction("Roberto"));
 console.log(shortFunction("Nouvellie"));
-let longSumFunction = function(x, y) {
+let longSumFunction = function (x, y) {
     return x + y;
 };
 let shortSumFunction = (x, y) => x + y;
 console.log(longSumFunction(3, 3));
 console.log(shortSumFunction(3, 3));
-let longUpperFunction = function(firstName) {
+let longUpperFunction = function (firstName) {
     firstName = firstName.toUpperCase();
     return firstName;
 };
@@ -21,7 +21,7 @@ let nick1 = "Anivia";
 let champ = {
     nick1: "Ahri",
     charm() {
-        setTimeout(function() {
+        setTimeout(function () {
             console.log(this.nick1 + " use charm!!");
         }, 2000);
     }
