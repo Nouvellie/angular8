@@ -42,4 +42,4 @@ Functions variables. (normal, default, optional)
 
 #### 6: 
 
-Fat arrow.
+Fat arrow, or arrow function.

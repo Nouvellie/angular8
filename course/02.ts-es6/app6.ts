@@ -51,5 +51,4 @@ let champ2 = {
         setTimeout( () => console.log(this.nick + " use charm!!"), 2000);
     }
 }
-
 champ2.charm();
