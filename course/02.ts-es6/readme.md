@@ -25,3 +25,9 @@ In order for it to make changes to all ts files, we must start our folder as a t
 ```sh
 $ tsc -init
 ```
+
+And then:
+
+```sh
+$ tsc
+```
