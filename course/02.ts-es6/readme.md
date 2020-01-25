@@ -31,3 +31,29 @@ And then: (set watch: true)
 ```sh
 $ tsc
 ```
+
+
+## Index
+#### 1: [Testing tsc.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app.ts)
+
+#### 2: Introduction to var, let, const.
+
+#### 3: Variable types.
+
+#### 4: Template strings.
+
+#### 5: Functions. (normal, default, optional)
+
+#### 6: Fat arrow, or arrow function.
+
+#### 7: Destructuring.
+
+#### 8: Promises.
+
+#### 9: Typescripts interfaces.
+
+#### 10: Classes.
+
+#### 11: Decorators.
+
+#### 12: Exam 1.
