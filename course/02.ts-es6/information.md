@@ -37,3 +37,5 @@
 #### 8: Promises.
 
 #### 9: Typescripts interfaces.
+
+#### 10: Classes.
