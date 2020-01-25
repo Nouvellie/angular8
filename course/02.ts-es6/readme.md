@@ -36,24 +36,24 @@ $ tsc
 ## Index
 #### 1: [Testing tsc.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app.ts)
 
-#### 2: Introduction to var, let, const.
+#### 2: [Introduction to var, let, const.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app2.ts)
 
-#### 3: Variable types.
+#### 3: [Variable types.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app3.ts)
 
-#### 4: Template strings.
+#### 4: [Template strings.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app4.ts)
 
-#### 5: Functions. (normal, default, optional)
+#### 5: [Functions. (normal, default, optional)](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app5.ts)
 
-#### 6: Fat arrow, or arrow function.
+#### 6: [Fat arrow, or arrow function.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app6.ts)
 
-#### 7: Destructuring.
+#### 7: [Destructuring.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app7.ts)
 
-#### 8: Promises.
+#### 8: [Promises.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app8.ts)
 
-#### 9: Typescripts interfaces.
+#### 9: [Typescripts interfaces.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/app9.ts)
 
-#### 10: Classes.
+#### 10:[ Classes.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/class.ts)
 
-#### 11: Decorators.
+#### 11:[ Decorators.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/dec.ts)
 
-#### 12: Exam 1.
+#### 12:[ Exam 1.](https://github.com/Nouvellie/angular8/blob/master/course/02.ts-es6/ex1.ts)
