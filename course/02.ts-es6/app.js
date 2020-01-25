@@ -1,4 +1,3 @@
-"use strict";
 function greet(name) {
     console.log("Hellow " + name.toUpperCase());
 }
