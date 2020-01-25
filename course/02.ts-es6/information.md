@@ -38,7 +38,7 @@ Template strings.
 
 #### 5:
 
-Functions variables. (normal, default, optional)
+Functions. (normal, default, optional)
 
 #### 6: 
 
@@ -54,4 +54,4 @@ Promises.
 
 #### 9: 
 
-Typescript's interfaces.
+Typescripts interfaces.

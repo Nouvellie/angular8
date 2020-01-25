@@ -1,4 +1,4 @@
-let prom1 = new Promise(function(resolve, reject) {
+let prom1 = new Promise(function (resolve, reject) {
     setTimeout(() => {
         console.log("Finish");
         // Success.
@@ -8,9 +8,9 @@ let prom1 = new Promise(function(resolve, reject) {
     }, 1500);
 });
 console.log("Step 1.");
-prom1.then(function() {
+prom1.then(function () {
     console.log("Run if all it's OK.");
-}, function() {
+}, function () {
     console.log("Run if something wrong.");
 });
 console.log("Step 2.");

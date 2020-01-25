@@ -11,7 +11,6 @@ let magneto = {
     xmenPower: "Magnetism manipulation."
 };
 sendMission(magneto);
-
 function checkXmen(xmen) {
     console.log("Status of " + xmen.xName + ": Healthy.");
 }
