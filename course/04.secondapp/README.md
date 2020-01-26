@@ -27,6 +27,12 @@ $ npm install jquery --save
 $ npm install popper.js --save
 ```
 
+## Component without style (inline-styles)
+
+```sh
+$ ng g c components/<component-name> -is
+```
+
 
 # AUTOMATIC README (SECOND APP)
 
