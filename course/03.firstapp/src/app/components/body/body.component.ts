@@ -8,8 +8,8 @@ export class BodyComponent {
     toggleBox:boolean = true;
 
     box:any = {
-        titleBox: "Angular",
-        contentBox: "Testing messages."
+        titleBox: "LEAGUE OF LEGENDS",
+        contentBox: "Favourite champs"
     };
 
     lolChamps:string[] = ['Anivia', 'Zed', 'Akali', 'Ezreal'];
