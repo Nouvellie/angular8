@@ -49,6 +49,13 @@ $ npm install
 Why not both?
 Link stylesheet and make a copy on my server, using a testing script to run from my server if the imported link fails.
 
+## Create component with Angular CLI
+
+```sh
+$ ng g c component/<component-name>
+```
+
+
 
 # AUTOMATIC README (FIRST APP)
 
