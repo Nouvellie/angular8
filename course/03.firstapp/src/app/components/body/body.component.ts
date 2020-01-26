@@ -5,9 +5,12 @@ import { Component } from '@angular/core';
 })
 export class BodyComponent {
 
-    toggle:boolean = true
+    toggleBox:boolean = true;
+
     box:any = {
         titleBox: "Angular",
         contentBox: "Testing messages."
     };
+
+    lolChamps:string[] = ['Anivia', 'Zed', 'Akali', 'Ezreal'];
 }

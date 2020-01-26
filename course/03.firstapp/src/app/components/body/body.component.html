@@ -2,23 +2,19 @@
     <div class="col">
         <h1>*ngIf</h1>
         <hr>
-        <div *ngIf="" class="card text-white bg-info mb-3" style="width: 100%;">
+        <div *ngIf="toggleBox" class="card text-white bg-info mb-3" style="width: 100%;">
             <div class="card-body">
                 <h5 class="card-title">{{box.titleBox}}</h5>
                 <p class="card-text">{{box.contentBox}}</p>
             </div>
         </div>
-        <button class="btn btn-outline-primary btn-block">Show/Hide</button>
+        <button (click)="toggleBox = !toggleBox" class="btn btn-outline-info btn-block">Show/Hide</button>
     </div>
     <div class="col">
         <h1>*ngFor</h1>
         <hr>
         <ul class="list-group">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
+            <li *ngFor="let champs of lolChamps; let i = index" class="list-group-item">{{i+1}} - {{champs}}</li>
         </ul>
     </div>
 </div>
