@@ -27,7 +27,7 @@ $ npm install --save core-js@^3
 #### Karma-jasmine-html-reporter: (1.5.1)
 
 ```sh
-$ karma-jasmine-html-reporter@1.5.1
+$ npm install karma-jasmine-html-reporter@1.5.1
 ```
 
 #### Jasmine-core: (3.5)
