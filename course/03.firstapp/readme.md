@@ -11,6 +11,12 @@
 - We will create an application with 3 reusable components.
 - *ngFor and the *ngIf.
 
+## Install
+
+```sh
+$ ng new <appname>
+```
+
 ## Requirements:
 #### Core-js: (3.6.4)
 
