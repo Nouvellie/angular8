@@ -21,19 +21,19 @@ $ ng new <appname>
 #### Core-js: (3.6.4)
 
 ```sh
-$ npm install --save core-js@^3
+$ npm install core-js@^3 --save
 ```
 
 #### Karma-jasmine-html-reporter: (1.5.1)
 
 ```sh
-$ npm install karma-jasmine-html-reporter@1.5.1
+$ npm install karma-jasmine-html-reporter --save
 ```
 
 #### Jasmine-core: (3.5)
 
 ```sh
-$ npm install jasmine-core
+$ npm install jasmine-core --save
 ```
 
 ## Run Angular (default, or specific port)

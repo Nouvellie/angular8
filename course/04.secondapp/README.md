@@ -12,6 +12,21 @@
 - Brief introduction to Pipes.
 - Using the navbar search engine to perform a query on our hero arrangement.
 
+## Dependencies of Angular
+
+```sh
+$ npm install karma-jasmine-html-reporter --save
+$ npm install jasmine-core --save
+```
+
+## Bootstrap npm and dependencies
+
+```sh
+$ npm install bootstrap --save
+$ npm install jquery --save
+$ npm install popper.js --save
+```
+
 
 # AUTOMATIC README (SECOND APP)
 
