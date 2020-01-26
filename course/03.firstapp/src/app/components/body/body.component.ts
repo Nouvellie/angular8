@@ -5,4 +5,9 @@ import { Component } from '@angular/core';
 })
 export class BodyComponent {
 
+    toggle:boolean = true
+    box:any = {
+        titleBox: "Angular",
+        contentBox: "Testing messages."
+    };
 }
