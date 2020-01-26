@@ -11,19 +11,19 @@ import { HeroesService } from './services/heroes.service';
 import { AboutComponent } from './components/about/about.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeroeComponent } from './components/heroe/heroe.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
-
-
 
 
 @NgModule({
   declarations: [
     AboutComponent,
     AppComponent,
-    HeroesComponent,
     HomeComponent,
-    NavbarComponent
+    HeroeComponent,
+    HeroesComponent,
+    NavbarComponent,
   ],
   imports: [
     APP_ROUTING,
