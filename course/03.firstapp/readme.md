@@ -43,6 +43,11 @@ $ ng serve -p <port>
 $ npm install
 ```
 
+## Bootstrap
+#### CDN or a copy in server?:
+
+Why not both?
+Link stylesheet and make a copy on my server, using a testing script to run from my server if the imported link fails.
 
 # AUTOMATIC README (FIRST APP)
 

@@ -9,6 +9,25 @@
     <meta name="author" content="Roberto Rocuant Venegas">
     <meta name="description" content="First App">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script>
+        var test = document.createElement("div")
+        test.className = "hidden d-none"
+
+        document.head.appendChild(test)
+        var cssLoaded = window.getComputedStyle(test).display === "none"
+        document.head.removeChild(test)
+
+        if (!cssLoaded) {
+            var link = document.createElement("link");
+
+            link.type = "text/css";
+            link.rel = "stylesheet";
+            link.href = "assets/css/bootstrap.min.css";
+
+            document.head.appendChild(link);
+        }
+    </script>
 </head>
 
 <body>
