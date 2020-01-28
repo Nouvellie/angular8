@@ -14,6 +14,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { SearchComponent } from './components/search/search.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
     HeroeComponent,
     HeroesComponent,
     NavbarComponent,
+    SearchComponent,
   ],
   imports: [
     APP_ROUTING,

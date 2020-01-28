@@ -65,16 +65,33 @@ export class HeroesService {
 
     getHeroe(idx:string) {
       if (isNaN(Number(idx))) {
-        this.heroes.forEach((heroe) => {
+        // this.heroes.forEach((heroe) => {
+        //   if(heroe['name']==idx) {
+        //     this._heroe = heroe;
+        //   }
+        // }
+        // );
+        for (let heroe of this.heroes) {
           if(heroe['name']==idx) {
             this._heroe = heroe;
           }
-        });
+        }
         return this._heroe;  
       }
       else {
         return this.heroes[idx];
       }
+    }
+    getHeroeOnSearch( searchText:string ) {
+      let _heroesTemp:Heroe[] = [];
+      searchText = searchText.toLowerCase();
+      for (let heroe of this.heroes) {
+        let name = heroe.name.toLowerCase();
+        if (name.indexOf(searchText) >= 0) {
+          _heroesTemp.push(heroe);
+        }
+      }
+      return _heroesTemp;
     }
 }
 

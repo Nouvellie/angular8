@@ -11,9 +11,10 @@ export class HeroeComponent {
   heroe:Heroe;
   imgHeroe:string;
 
-  constructor( private _activateRoute:ActivatedRoute,
-               private _heroesService:HeroesService,
-            ) {
+  constructor( 
+    private _activateRoute:ActivatedRoute,
+    private _heroesService:HeroesService,
+  ) {
     this._activateRoute.params.subscribe( params => {
       this.heroe = this._heroesService.getHeroe(params.id);
       if (this.heroe.publisher == 'DC') {
