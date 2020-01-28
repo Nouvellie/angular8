@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,16 +10,20 @@ export class HeroeCardComponent implements OnInit {
 
   @Input() heroe:any = {};
   @Input() index:number;
-
+  @Output() selectedIndex:EventEmitter<number>;
+  
   constructor(
      private _router:Router,
-  ) { }
+  ) {
+    this.selectedIndex = new EventEmitter();
+   }
 
   ngOnInit() {
   }
 
-  seeHeroe(idx:number) {
-    this._router.navigate(['/heroe', this.index]);
+  seeHeroe() {
+    // this._router.navigate(['/heroe', this.index]);
+    this.selectedIndex.emit(this.index);
   }
 
 }
