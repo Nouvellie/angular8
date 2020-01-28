@@ -1,5 +1,13 @@
-<h1>Heroes: <small>Marvel and DC</small></h1>
+<h1>Heroes: <small>{{_searchText}}</small></h1>
 <hr>
+
+<div class="row" *ngIf="heroes.length == 0">
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            No heroes were found for {{_searchText}}.
+        </div>
+    </div>
+</div>
 
 <div class="card-columns">
     <div class="card animated fadeIn fast" *ngFor="let heroe of heroes; let i = index">
