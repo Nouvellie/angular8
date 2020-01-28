@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 // Routes:
-import { APP_ROUTING } from './app.routes'
+import { APP_ROUTING } from './app.routes';
 
 // Services:
 import { HeroesService } from './services/heroes.service';
@@ -27,11 +27,11 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
   ],
   imports: [
     APP_ROUTING,
-    BrowserModule
+    BrowserModule,
     
   ],
   providers: [
-    HeroesService
+    HeroesService,
   ],
   bootstrap: [AppComponent]
 })
