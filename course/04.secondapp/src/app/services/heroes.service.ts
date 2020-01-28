@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class HeroesService {
 
+    _heroe:Heroe;
     private heroes:Heroe[] = [
         {
             name: "Aquaman",
@@ -63,7 +64,20 @@ export class HeroesService {
     }
 
     getHeroe(idx:string) {
-      return this.heroes[idx];
+      console.log("checking nan");
+      if (isNaN(Number(idx))) {
+        console.log("enter if");
+        this.heroes.forEach((heroe) => {
+          if(heroe['name']==idx) {
+            this._heroe = heroe;
+            console.log(this._heroe);
+          }
+        });
+        return this._heroe;  
+      }
+      else {
+        return this.heroes[idx];
+      }
     }
 }
 

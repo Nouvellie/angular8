@@ -15,17 +15,20 @@
 ## Dependencies of Angular
 
 ```sh
-$ npm install karma-jasmine-html-reporter --save
-$ npm install jasmine-core --save
+$ npm install core-js@latest --save
+$ npm install jasmine-core@latest --save
+$ npm install karma-jasmine-html-reporter@latest --save
 ```
 
 ## Bootstrap npm and dependencies
 
 ```sh
-$ npm install bootstrap --save
-$ npm install jquery --save
-$ npm install popper.js --save
+$ npm install bootstrap@latest --save
+$ npm install jquery@latest --save
+$ npm install popper.js@latest --save
 ```
+
+#### 
 
 ## Component without style (inline-styles)
 
