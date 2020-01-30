@@ -11,4 +11,17 @@ export class AppComponent {
   pi = Math.PI;
   someNumber = 0.368;
   iso4217 = 1234.5;
+  jsonTest = {
+    name: "Anivia",
+    role: "Mage",
+    region: "Freljord",
+    nick: "The Cryophoenix",
+    abilities: {
+      pasive: "Rebirth",
+      q: "Flash Frost",
+      w: "Crystallize",
+      e: "Frostbite",
+      r: "Glacial Storm",
+    },
+  }
 }
