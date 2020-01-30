@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { promise } from 'protractor';
 
 @Component({
   selector: 'app-root',
@@ -23,5 +24,9 @@ export class AppComponent {
       e: "Frostbite",
       r: "Glacial Storm",
     },
-  }
+  };
+  somePromise = new Promise((resolve, reject)=> {
+    setTimeout(()=>resolve("Promise ready."), 3500);
+  });
+  someDate = new Date();
 }

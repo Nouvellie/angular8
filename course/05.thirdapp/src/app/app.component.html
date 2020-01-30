@@ -67,18 +67,38 @@
             <tr>
                 <td>1234.5</td>
                 <td>currency:'EUR'</td>
-                <!-- 'EUR':true-->
+                <!-- 'EUR':true (for old versions < 5) -->
                 <td>{{iso4217|currency:'EUR'}}</td>
             </tr>
             <tr>
                 <td>1234.5</td>
-                <td>currency:'EUR':true:'4.0-0'</td>
-                <td>{{iso4217|currency:'EUR':true:'4.0-0'}}</td>
+                <td>currency:'EUR':'4.0-0'</td>
+                <td>{{iso4217|currency:'EUR':'4.0-0'}}</td>
             </tr>
             <tr>
                 <td>1234.5</td>
                 <td>number:'.2-2'</td>
                 <td>{{iso4217|number:'.2-2'}}</td>
+            </tr>
+            <tr>
+                <td>Promise</td>
+                <td>async</td>
+                <td>{{somePromise|async}}</td>
+            </tr>
+            <tr>
+                <td>{{someDate}}</td>
+                <td>date</td>
+                <td>{{someDate|date}}</td>
+            </tr>
+            <tr>
+                <td>{{someDate}}</td>
+                <td>date:'medium'</td>
+                <td>{{someDate|date:'medium'}}</td>
+            </tr>
+            <tr>
+                <td>{{someDate}}</td>
+                <td>date:'MMMM - dd'</td>
+                <td>{{someDate|date:'MMMM - dd'}}</td>
             </tr>
         </tbody>
     </table>
