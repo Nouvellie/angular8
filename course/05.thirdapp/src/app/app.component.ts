@@ -29,4 +29,5 @@ export class AppComponent {
     setTimeout(()=>resolve("Promise ready."), 3500);
   });
   someDate = new Date();
+  someText = "RIse AnD rISe agAin.";
 }
