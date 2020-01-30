@@ -13,51 +13,72 @@
         </thead>
         <tbody>
             <tr>
-                <td>Name</td>
+                <td>Roberto</td>
                 <td>uppercase</td>
                 <td>{{name|uppercase}}</td>
             </tr>
             <tr>
-                <td>Name</td>
+                <td>Roberto</td>
                 <td>lowercase</td>
                 <td>{{name|lowercase}}</td>
             </tr>
             <tr>
-                <td>Name</td>
+                <td>Roberto</td>
                 <td>slice:3</td>
                 <td>{{name|slice:3}}</td>
             </tr>
             <tr>
-                <td>Name</td>
+                <td>Roberto</td>
                 <td>slice:0:3</td>
                 <td>{{name|slice:0:3}}</td>
             </tr>
             <tr>
-                <td>Array</td>
+                <td>1,2,3,4,5,6,7,8,9,10</td>
                 <td>slice:1:6</td>
                 <td>{{array|slice:1:6}}</td>
             </tr>
             <tr>
-                <td>π</td>
+                <td>3.14159265359</td>
                 <!-- n.ints . n.mindec - n.maxdec -->
                 <td>number:'3.0-0'</td>
                 <td>{{pi|number:'3.0-0'}}</td>
             </tr>
             <tr>
-                <td>π</td>
+                <td>3.14159265359</td>
                 <!-- n.ints . n.mindec - n.maxdec -->
                 <td>number:'1.0-2'</td>
                 <td>{{pi|number:'1.0-2'}}</td>
             </tr>
             <tr>
-                <td>Some Number</td>
+                <td>0.368</td>
                 <td>percent</td>
                 <td>{{someNumber|percent}}</td>
             </tr>
             <tr>
-                <td>Some Number</td>
+                <td>0.368</td>
                 <td>percent:'2.2-2'</td>
                 <td>{{someNumber|percent:'2.2-2'}}</td>
+            </tr>
+            <tr>
+                <td>1234.5</td>
+                <td>currency</td>
+                <td>{{iso4217|currency}}</td>
+            </tr>
+            <tr>
+                <td>1234.5</td>
+                <td>currency:'EUR'</td>
+                <!-- 'EUR':true-->
+                <td>{{iso4217|currency:'EUR'}}</td>
+            </tr>
+            <tr>
+                <td>1234.5</td>
+                <td>currency:'EUR':true:'4.0-0'</td>
+                <td>{{iso4217|currency:'EUR':true:'4.0-0'}}</td>
+            </tr>
+            <tr>
+                <td>1234.5</td>
+                <td>number:'.2-2'</td>
+                <td>{{iso4217|number:'.2-2'}}</td>
             </tr>
         </tbody>
     </table>
