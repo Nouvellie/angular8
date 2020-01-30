@@ -12,6 +12,12 @@
 - Brief introduction to Pipes.
 - Using the navbar search engine to perform a query on our hero arrangement.
 
+## Update node
+
+```sh
+$ npm install -g npm --force
+```
+
 ## Dependencies of Angular
 
 ```sh
@@ -35,7 +41,6 @@ $ npm install popper.js@latest --save
 ```sh
 $ ng g c components/<component-name> -is
 ```
-
 
 # AUTOMATIC README (SECOND APP)
 

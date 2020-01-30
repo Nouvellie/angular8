@@ -1,0 +1,47 @@
+<div class="container">
+    <br>
+    <h1>PIPES</h1>
+    <hr>
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">VARIABLE</th>
+                <th scope="col">PIPE</th>
+                <th scope="col">RESULT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>uppercase</td>
+                <td>{{name|uppercase}}</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>lowercase</td>
+                <td>{{name|lowercase}}</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>slice:3</td>
+                <td>{{name|slice:3}}</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>slice:0:3</td>
+                <td>{{name|slice:0:3}}</td>
+            </tr>
+            <tr>
+                <td>Array</td>
+                <td>slice:1:6</td>
+                <td>{{array|slice:1:6}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <h4>Slice array</h4>
+    <ul>
+        <li *ngFor="let a of array | slice:3:15">{{a}}</li>
+    </ul>
+</div>
