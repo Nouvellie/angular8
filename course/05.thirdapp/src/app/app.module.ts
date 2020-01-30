@@ -9,11 +9,13 @@ import { registerLocaleData } from '@angular/common';
 registerLocaleData(localeEs);
 
 import { CapitalizedPipe } from './pipes/capitalized.pipe';
+import { SafedomPipe } from './pipes/safedom.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CapitalizedPipe,
+    SafedomPipe,
   ],
   imports: [
     BrowserModule

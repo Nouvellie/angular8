@@ -14,8 +14,6 @@ export class CapitalizedPipe implements PipeTransform {
         else {
             words[0] = words[0][0].toUpperCase() + words[0].slice(1);
         }
-        
-    
         return words.join(" ");
     }
 }

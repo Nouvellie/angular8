@@ -30,4 +30,6 @@ export class AppComponent {
   });
   someDate = new Date();
   someText = "RIse AnD rISe agAin.";
+  youtubeCode = 'xwWSt6S6f3Y';
+  youtubeLink = 'https://www.youtube.com/embed/';
 }
