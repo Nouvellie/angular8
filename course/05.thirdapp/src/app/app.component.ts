@@ -32,4 +32,6 @@ export class AppComponent {
   someText = "RIse AnD rISe agAin.";
   youtubeCode = 'xwWSt6S6f3Y';
   youtubeLink = 'https://www.youtube.com/embed/';
+  passwordTest = 'TestingPWD';
+  toggle:boolean = false;
 }

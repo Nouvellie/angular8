@@ -10,12 +10,14 @@ registerLocaleData(localeEs);
 
 import { CapitalizedPipe } from './pipes/capitalized.pipe';
 import { SafedomPipe } from './pipes/safedom.pipe';
+import { PasswordPipe } from './pipes/password.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CapitalizedPipe,
     SafedomPipe,
+    PasswordPipe,
   ],
   imports: [
     BrowserModule

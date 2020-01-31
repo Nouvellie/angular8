@@ -110,6 +110,15 @@
                 <td>capitalized</td>
                 <td>{{someText|capitalized:false}}</td>
             </tr>
+            <tr>
+                <td>{{passwordTest}}</td>
+                <td>
+                    password:{{toggle}}
+                    <br><br>
+                    <button (click)="toggle = !toggle" type="button" class="btn btn-info">Show/Hide</button>
+                </td>
+                <td>{{passwordTest|password:toggle}}</td>
+            </tr>
         </tbody>
     </table>
     <h4>Slice array</h4>
