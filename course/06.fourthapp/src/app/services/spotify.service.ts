@@ -14,12 +14,20 @@ export class SpotifyService {
   getNewReleases() {
 
     const HEADERS = new HttpHeaders({
-      'Authorization': 'Bearer BQAL7cI4tnMx_3dujiD6HZOzR4aR3NobmQOdmGO59aoKoavxWSN7hZvC-IbW-V6nUqI5PfDmbYCjwgxnFtY',
+      'Authorization': 'Bearer BQDJReAFB8jZnO0JsFEHg4E3G2uJUEwLcCpT6DAVL8MacV78FoWAl0iVOTVDQUw1OhBeaGQS4hSupEyW4JU',
     });
 
-    this.http.get('https://api.spotify.com/v1/browse/new-releases', { headers: HEADERS })
-      .subscribe((result) => {
-        console.log(result);
-      });
+    return this.http.get('https://api.spotify.com/v1/browse/new-releases', { headers: HEADERS });
   }
+  // getToken() {
+  //   let data = {
+  //     'grant_type': 'client_credentials',
+  //     'client_id': 'ba4ea5c9213849f281d88cbd0ee94f70',
+  //     'client_secret': '7682853452d34b0a9754df3ba21182ae',
+  //   }
+  //   this.http.post('https://accounts.spotify.com/api/token', {data})
+  //     .subscribe((result) => {
+  //       console.log(result);
+  //     });
+  // }
 }
