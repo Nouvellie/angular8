@@ -21,8 +21,8 @@ export class SearchComponent {
     this.spotify.getByArtist(textArtist)
       .subscribe((data:any) => {
         console.log("result api get");
-        console.log(data.artists.items);
-        this.newReleases = data.artists.items;
+        console.log(data);
+        this.newReleases = data;
       });
   }
 }
