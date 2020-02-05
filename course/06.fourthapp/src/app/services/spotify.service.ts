@@ -8,15 +8,14 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class SpotifyService {
 
   constructor( private http:HttpClient) { 
-    console.log("Service ready.");
+    
   }
 
   getNewReleases() {
 
     const HEADERS = new HttpHeaders({
-      'Authorization': 'Bearer BQDJReAFB8jZnO0JsFEHg4E3G2uJUEwLcCpT6DAVL8MacV78FoWAl0iVOTVDQUw1OhBeaGQS4hSupEyW4JU',
+      'Authorization': 'Bearer BQD97lzrsiezAJ7T4QfK1xFYVROFISp0Bn8BHDiJ5zY6ug_-T2uuuzOHYCF9hFTW1WmRs5nvT2aBpvFN0TM',
     });
-
     return this.http.get('https://api.spotify.com/v1/browse/new-releases', { headers: HEADERS });
   }
   // getToken() {
@@ -30,4 +29,10 @@ export class SpotifyService {
   //       console.log(result);
   //     });
   // }
+  getByArtist(textArtist:string) {
+    const HEADERS = new HttpHeaders({
+      'Authorization': 'Bearer BQD97lzrsiezAJ7T4QfK1xFYVROFISp0Bn8BHDiJ5zY6ug_-T2uuuzOHYCF9hFTW1WmRs5nvT2aBpvFN0TM',
+    });
+    return this.http.get(`https://api.spotify.com/v1/search?q=${textArtist}&type=artist&limit=15`, { headers: HEADERS });
+  }
 }

@@ -1,1 +1,15 @@
-<p>search works!</p>
+<div class="row">
+    <div class="col">
+        <input type="text" (keyup)="search(textArtist.value)" placeholder="Search artist" class="form-control" #textArtist>
+    </div>
+</div>
+
+
+<div class="card-columns m-5">
+    <div *ngFor="let release of newReleases" class="card">
+        <img [src]="release.images[0].url" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{release.name}}</h5>
+        </div>
+    </div>
+</div>
