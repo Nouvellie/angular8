@@ -6,6 +6,6 @@ import { ArtistComponent } from './components/artist/artist.component';
 export const ROUTES:Routes = [
     { path: '', component: HomeComponent},
     { path: 'search', component: SearchComponent },
-    { path: 'artist', component: ArtistComponent },
+    { path: 'artist/:id', component: ArtistComponent },
     { path: '**', pathMatch: 'full', redirectTo: ''},
 ]
