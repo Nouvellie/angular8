@@ -1,12 +1,21 @@
+<app-loading *ngIf="loading"></app-loading>
+
+
+<app-cards [items]="newReleases"></app-cards>
+
+<!--
 <div class="card-columns">
-    <div *ngFor="let release of newReleases" class="card">
-        <!-- <img [src]="release.images[0].url" class="card-img-top" alt="..."> -->
-        <img [src]="release.images|noimage" class="card-img-top" alt="...">
+    <div *ngFor="let item of items" class="card">
+-->
+<!-- <img [src]="item.images[0].url" class="card-img-top" alt="..."> -->
+<!--
+        <img [src]="item.images|noimage" class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title">{{release.name}}</h5>
+            <h5 class="card-title">{{item.name}}</h5>
             <p class="card-text">
-                <span *ngFor="let artist of release.artists" class="badge badge-pill badge-info">{{artist.name}}</span>
+                <span *ngFor="let artist of item.artists" class="badge badge-pill badge-info">{{artist.name}}</span>
             </p>
         </div>
     </div>
 </div>
+-->

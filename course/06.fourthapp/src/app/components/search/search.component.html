@@ -4,13 +4,19 @@
     </div>
 </div>
 
+<app-loading *ngIf="loading" class="m-5"></app-loading>
 
+<app-cards *ngIf="!loading" [items]="newReleases"></app-cards>
+<!--
 <div class="card-columns m-5">
     <div *ngFor="let release of newReleases" class="card">
-        <img [src]="release.images|noimage" class="card-img-top" alt="...">
-        <!-- <img [src]="release.images[0].url" class="card-img-top" alt="..."> -->
+        <img [src]="release.images|noimage" class="card-img-top" alt="..."> 
+-->
+<!-- <img [src]="release.images[0].url" class="card-img-top" alt="..."> -->
+<!--
         <div class="card-body">
             <h5 class="card-title">{{release.name}}</h5>
         </div>
     </div>
 </div>
+-->

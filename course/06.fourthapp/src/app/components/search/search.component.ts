@@ -9,13 +9,14 @@ import { SpotifyService } from '../../services/spotify.service';
 export class SearchComponent {
 
   newReleases: any[] = [];
+  loading: boolean;
 
   constructor(
     private spotify:SpotifyService,
   ) {
-    
   }
   search(textArtist:string) {
+    this.loading = true;
     console.log("search comp");
     console.log(textArtist);
     this.spotify.getByArtist(textArtist)
@@ -23,6 +24,7 @@ export class SearchComponent {
         console.log("result api get");
         console.log(data);
         this.newReleases = data;
+        this.loading = false;
       });
   }
 }

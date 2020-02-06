@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cards',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class CardsComponent implements OnInit {
+
+
+  @Input() items:any[] = [];
 
   constructor() { }
 
