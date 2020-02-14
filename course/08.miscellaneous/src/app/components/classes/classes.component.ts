@@ -19,20 +19,37 @@ import { Component, OnInit } from '@angular/core';
     <button [ngClass]="{'btn-danger': properties.danger, 'btn-info': !properties.danger }" (click)="properties.danger = !properties.danger" class="btn" type="button" name="button">
       Danger - Info
     </button>
+
+    <br> <br>
+
+    <h3>Async process</h3>
+
+    <button [disabled]="loading" (click)="run()" class="btn btn-primary" type="button" name="button">
+      <i [ngClass]="{'fa-save': !loading, 'fa-refresh fa-spin': loading}" class="fa"></i>
+      <span *ngIf="!loading">&nbsp;Saves changes</span>
+      <span *ngIf="loading">&nbsp;Please, wait...</span>
+    </button>
   `,
   styles: []
 })
 export class ClassesComponent implements OnInit {
 
-  alert:string = "alert-danger"
+  alert:string = "alert-danger";
 
   properties:Object = {
     danger: false,
-  }
+  };
+
+  loading:boolean = false;
   
   constructor() { }
 
   ngOnInit() {
   }
 
+  run() {
+    this.loading = true;
+
+    setTimeout( () => this.loading = false, 3000)
+  }
 }
